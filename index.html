@@ -1,0 +1,239 @@
+<!doctype html>
+<html lange="en">
+<head>
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--Link to CSS-->
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+
+  <title>SkullMan Grog</title>
+</head>
+<body>
+  <div class="bg-home">
+    <header id="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div id="logo">
+            <a href="http://www.skullmangrog.com/">
+              <img src="main-logo.png" alt="Skullman Grog" />
+            </a>
+          </div>
+          <div id="rope-contain">
+            <br /><br /><br /><br />
+            <img id="rope" src="rope.png" alt="Rope" />
+          </div>
+          <div id="header-nav">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <nav id="nav" class="navbar">
+                <ul id="menu-header-menu" class="nav navbar-nav">
+                  <li id="menu-item-1">
+                    <a href="#characters"><img src="sign-characters-sm.png" alt="Characters Sign" /></a>
+                  </li>
+                  <li id="menu-item-2">
+                    <a href="#story"><img src="sign-story-sm.png" alt="Characters Sign" /></a>
+                  </li>
+                  <li id="menu-item-3">
+                    <a href="#gameplay"><img src="sign-gameplay-sm.png" alt="Characters Sign" /></a>
+                  </li>
+                  <li id="menu-item-4">
+                    <a href="#comics"><img src="sign-comics-sm.png" alt="Characters Sign" /></a>
+                  </li>
+                  <li id="menu-item-5">
+                    <a href="#gallery"><img src="sign-gallery-sm.png" alt="Characters Sign" /></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <br /><br /><br /><br />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+          <div id="newsboard">
+            <div id="newstext">
+              <h4>PIRATES ASSOCIATION ANNOUNCEMENT</h4>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              It has survived not only five centuries, but also the leap into electronic typesetting,
+              remaining essentially unchanged.
+            </div>
+            <br />
+            <div id="signup">
+              <a href="#" class="btn btn-info">SIGN UP FOR THE BETA</a>
+            </div>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<body>
+  <a id="characters"></a>
+  <div class="bg-characters">
+    <div class="container">
+      <div class="row">
+        <div id="characters-title">
+          <h1>The merry fightin' crew of the Rapscallion</h1>
+        </div>
+        <br /><br />
+        <div id="profile-img">
+          <img id="blimey-nat" src="prof-nat-blimey.png" alt="prof-nat-blimey" href="#" />
+          <img id="eclair-nat" src="prof-nat-eclair.png" alt="prof-nat-eclair" href="#" />
+          <img id="gorilla-nat" src="prof-nat-gorilla.png" alt="prof-nat-gorilla" href="#" />
+          <img id="bilgewater-nat" src="prof-nat-bilgewater.png" alt="prof-nat-bilgewater" href="#" />
+          <img id="parish-nat" src="prof-nat-parish.png" alt="prof-nat-parish" href="#" />
+          <img id="pearl-nat" src="prof-nat-pearl.png" alt="prof-nat-pearl" href="#" />
+          <img id="reilly-nat" src="prof-nat-reilly.png" alt="prof-nat-reilly" href="#" />
+        </div>
+        <div id="back-dagger-char">
+          <a href="#" class="pull-right"><img src="back-dagger.png"/></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+// lights up background light blimey
+document.getElementById('blimey-nat').onmouseover = function(event) {
+  document.getElementById('blimey-nat').src = "prof-over-blimey.png";
+}
+document.getElementById('blimey-nat').onmouseout = function(event) {
+  document.getElementById('blimey-nat').src = "prof-nat-blimey.png";
+}
+/// lights up background light eclair
+document.getElementById('eclair-nat').onmouseover = function(event) {
+  document.getElementById('eclair-nat').src = "prof-over-eclair.png";
+}
+document.getElementById('eclair-nat').onmouseout = function(event) {
+  document.getElementById('eclair-nat').src = "prof-nat-eclair.png";
+}
+/// lights up background light gorilla
+document.getElementById('gorilla-nat').onmouseover = function(event) {
+  document.getElementById('gorilla-nat').src = "prof-over-gorilla.png";
+}
+document.getElementById('gorilla-nat').onmouseout = function(event) {
+  document.getElementById('gorilla-nat').src = "prof-nat-gorilla.png";
+}
+/// lights up background light bilgewater
+document.getElementById('bilgewater-nat').onmouseover = function(event) {
+  document.getElementById('bilgewater-nat').src = "prof-over-bilgewater.png";
+}
+document.getElementById('bilgewater-nat').onmouseout = function(event) {
+  document.getElementById('bilgewater-nat').src = "prof-nat-bilgewater.png";
+}
+/// lights up background light parish
+document.getElementById('parish-nat').onmouseover = function(event) {
+  document.getElementById('parish-nat').src = "prof-over-parish.png";
+}
+document.getElementById('parish-nat').onmouseout = function(event) {
+  document.getElementById('parish-nat').src = "prof-nat-parish.png";
+}
+/// lights up background light pearl
+document.getElementById('pearl-nat').onmouseover = function(event) {
+  document.getElementById('pearl-nat').src = "prof-over-pearl.png";
+}
+document.getElementById('pearl-nat').onmouseout = function(event) {
+  document.getElementById('pearl-nat').src = "prof-nat-pearl.png";
+}
+/// lights up background light reilly
+document.getElementById('reilly-nat').onmouseover = function(event) {
+  document.getElementById('reilly-nat').src = "prof-over-reilly.png";
+}
+document.getElementById('reilly-nat').onmouseout = function(event) {
+  document.getElementById('reilly-nat').src = "prof-nat-reilly.png";
+}
+</script>
+<body>
+  <a id="story"></a>
+  <div class="bg-story">
+    <div class="bg-story-overlay">
+      <div class="container">
+        <div class="row">
+          <div id="story-title">
+            <h1>STORY</h1>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <br />
+            <div class="card-group">
+              <div class="card" style="max-width:319px;">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE4IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTRmZTA1OGRkZmIgdGV4dCB7IGZpbGw6cmdiYSgyNTUsMjU1LDI1NSwuNzUpO2ZvbnQtd2VpZ2h0Om5vcm1hbDtmb250LWZhbWlseTpIZWx2ZXRpY2EsIG1vbm9zcGFjZTtmb250LXNpemU6MTZwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTRmZTA1OGRkZmIiPjxyZWN0IHdpZHRoPSIzMTgiIGhlaWdodD0iMTgwIiBmaWxsPSIjNzc3Ii8+PGc+PHRleHQgeD0iMTE4LjA4NTkzNzUiIHk9Ijk3LjIiPjMxOHgxODA8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" class="card-img-top" alt="Card image" />
+                <div id="card-block">
+                  <h4 class="card-title">STORY CARD 1</h4>
+                  <p class="card-text">Each merged squad salts the wild porter. Should the charmed church dodge a camera? The gown litters the rhyme. Another discrete elevator defects over the target.</p>
+                  <a href="#" class="btn btn-success">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="back-dagger-story">
+            <a href="#" class="pull-right"><img src="back-dagger.png"/></a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+<body>
+  <a id="gameplay"></a>
+  <div class="bg-gameplay">
+    <div class="container">
+      <div class="row">
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br />
+      <div id="back-dagger-gameplay">
+        <a href="#" class="pull-right"><img src="back-dagger.png"/></a>
+      </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<body>
+  <a id="comics"></a>
+  <div class="bg-comics">
+    <div class="container">
+      <div class="row">
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br />
+        <div id="back-dagger-comics">
+          <a href="#" class="pull-right"><img src="back-dagger.png"/></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<body>
+  <a id="gallery"></a>
+  <div class="bg-gallery">
+    <div class="container">
+      <div class="row">
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br />
+        <div id="back-dagger-gallery">
+          <a href="#" class="pull-right"><img src="back-dagger.png"/></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<!--Sticky Footer Bar-->
+<div class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container-flulid">
+    <p class="navbar-text pull-left">Brought to you by Zeroth Entertainment</p>
+    <a href="#" class="navbar-btn btn-danger btn pull-right">Subscribe on YouTube</a>
+  </div>
+</div>
+<!--End of Sticky Footer Bar-->
+<!-- jQuery first, then Bootstrap JS. -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+
+</html>
